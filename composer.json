@@ -1,0 +1,14 @@
+{
+    "name": "wtf10029/oauth",
+    "type": "library",
+    "require": {
+        "overtrue/wechat": "~5.5.3"
+    },
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "autoload":{
+        "psr-4":{
+            "Wtf10029\\Oauth":"src/"
+        }
+    }
+}
