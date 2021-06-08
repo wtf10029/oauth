@@ -6,6 +6,7 @@
         "illuminate/support": "^5.1 || ^6.0 || ^7.0 || ^8.0"
     },
     "license": "MIT",
+    "minimum-stability": "dev",
     "autoload":{
         "psr-4":{
             "Wtf10029\\Oauth\\":"src/"

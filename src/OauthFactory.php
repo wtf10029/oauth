@@ -13,7 +13,7 @@ class OauthFactory
 
     public function __construct()
     {
-        $this->configs = dirname(__DIR__).'/config/oauth.php';
+        $this->configs = require dirname(__DIR__).'/config/oauth.php';
 
         foreach ($this->configs as $key => $item)
         {
