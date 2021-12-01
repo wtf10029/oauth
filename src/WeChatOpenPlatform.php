@@ -42,7 +42,7 @@ class WeChatOpenPlatform implements OauthInterFace
     {
         $result = $this->start_get_request('https://api.weixin.qq.com/sns/oauth2/access_token', [
             'appid'      => $this->config['app_id'],
-            'secret'     => $this->config['app_secret'],
+            'secret'     => $this->config['secret'],
             'code'       => $code,
             'grant_type' => 'authorization_code'
         ]);
