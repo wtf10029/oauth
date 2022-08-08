@@ -57,7 +57,7 @@ class Config implements ArrayAccess, \JsonSerializable
     public function set(string $key, $value)
     {
         if (is_null($key)) {
-            throw new InvalidArgumentException('Invalid config key.');
+            throw new InvalidArgumentException('Invalid config key. ');
         }
 
         $keys = explode('.', $key);
